@@ -1,0 +1,99 @@
+html, body, div, span, applet, object, iframes,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, sub, sup, tt, var,
+u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed,
+figure, figcaption, footer, header, hgroup,
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+    margin: 0;
+    padding: 0;
+    border: 0;
+    font-size: 100%;
+    font: inherit;
+    vertical-align: baseline;
+}
+
+article, aside, details, figcaption, figure,
+footer, header, hgroup, menu, nav, section {
+    display: block;
+}
+
+blockquote, q {
+    quotes: none;
+}
+
+blockquote:before, blockquote:after,
+q:before, q:after {
+    content: '';
+    content: none;
+}
+
+table {
+    border-collapse: collapse;
+    border-spacing: 0;
+}
+
+
+
+body {
+    font-family: 'OpenSans', sans-serif;
+    background: url(../background.jpg) center fixed;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -ms-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+}
+
+input{
+    
+    text-align: right;
+}
+.b, .bb, .point, .pourcentage, .effacer, .racine, .symbole, .pp1, .pp2, .tan, .sin, .cos, .ln, .rad, .deg, .pi, .plus_moins, .div_mult, .expo, .puisssance, .log10{
+
+    width: 100px;
+    cursor: default;
+    text-align: center;
+    padding: 7px 12px;
+    font-size: 20px;
+    
+    color: #000;
+    
+    border-top: 1px solid #777;
+
+   
+    box-shadow: 0 2px 6px rgba(0, 0, 0, .7);
+    margin-bottom: 10px;
+
+}
+    
+.bb{background: rgba(0, 0, 255, 0.6);}
+.b:hover,.racine:hover, .effacer:hover, .bb:hover, .symbole:hover, .b_AC:hover, .plus_moins:hover, .div_mult:hover, .pourcentage:hover, .pp1:hover, .pp2:hover, .tan:hover, .cos:hover, .sin:hover, .ln:hover, .rad:hover, .deg:hover, .pi:hover, .expo:hover, .puisssance:hover, .log10:hover {
+    background: linear-gradient(#79D144 0%, #50A61F 100%);
+    border-top: 1px solid #9ADD73;
+    text-shadow: 0 -1px 1px #008000;
+}
+
+.affichage, .affichage1{
+    margin-left: 15px;
+   
+    display: block;
+    width: 76.2%;
+    height: 40px;
+    padding: 6px 12px;
+    font-size: 25px;
+     font-weight: bold;
+    line-height: 1.42857143;
+    color: #555;
+    background-color: #fff;
+    background-image: none;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+}
+/*    
